@@ -1,0 +1,39 @@
+2025-05-15 10:40:15 INFO  src/serveur.c:325: Serveur démarré !
+2025-05-15 10:40:24 INFO  src/aquarium.c:25: Chargement de l'aquarium depuis le fichier: aquarium1.txt
+2025-05-15 10:40:24 INFO  src/aquarium.c:10: Création de la vue: N1, Position: (0, 0), Taille: 500x500
+2025-05-15 10:40:24 INFO  src/aquarium.c:10: Création de la vue: N2, Position: (500, 0), Taille: 500x500
+2025-05-15 10:40:24 INFO  src/aquarium.c:10: Création de la vue: N3, Position: (0, 500), Taille: 500x500
+2025-05-15 10:40:24 INFO  src/aquarium.c:10: Création de la vue: N4, Position: (500, 500), Taille: 500x500
+2025-05-15 10:43:22 INFO  src/server_context.c:118: Nouvelle connexion client acceptée: 5
+2025-05-15 10:43:22 INFO  src/serveur.c:111: Process message du client 5: hello in as N1
+2025-05-15 10:43:22 INFO  src/serveur.c:92: Client 5 prend la vue N1
+2025-05-15 10:43:22 INFO  src/serveur.c:242: Réponse au client 5: greeting N1 0x0+500+500 1000x1000
+
+2025-05-15 10:43:22 INFO  src/serveur.c:111: Process message du client 5: getFishesContinuously
+2025-05-15 10:43:22 INFO  src/serveur.c:144: Mises à jour continues activées pour le client 5
+2025-05-15 10:43:22 INFO  src/serveur.c:242: Réponse au client 5: 
+2025-05-15 10:43:32 INFO  src/server_context.c:118: Nouvelle connexion client acceptée: 6
+2025-05-15 10:43:32 INFO  src/serveur.c:111: Process message du client 6: hello in as N1
+2025-05-15 10:43:32 INFO  src/serveur.c:92: Client 6 prend la vue N2
+2025-05-15 10:43:32 INFO  src/serveur.c:242: Réponse au client 6: greeting N2 500x0+500+500 1000x1000
+
+2025-05-15 10:43:32 INFO  src/serveur.c:111: Process message du client 6: getFishesContinuously
+2025-05-15 10:43:32 INFO  src/serveur.c:144: Mises à jour continues activées pour le client 6
+2025-05-15 10:43:32 INFO  src/serveur.c:242: Réponse au client 6: 
+2025-05-15 10:43:38 INFO  src/serveur.c:111: Process message du client 5: ping 1747298617627
+2025-05-15 10:43:38 INFO  src/serveur.c:242: Réponse au client 5: pong 1747298617627
+
+2025-05-15 10:43:47 INFO  src/serveur.c:111: Process message du client 6: ping 1747298627158
+2025-05-15 10:43:47 INFO  src/serveur.c:242: Réponse au client 6: pong 1747298627158
+
+2025-05-15 10:43:53 INFO  src/serveur.c:111: Process message du client 5: ping 1747298632627
+2025-05-15 10:43:53 INFO  src/serveur.c:242: Réponse au client 5: pong 1747298632627
+
+2025-05-15 10:44:02 INFO  src/server_context.c:171: Client déconnecté.
+2025-05-15 10:44:02 WARN  src/serveur.c:252: Erreur de réception pour le client 6, déconnexion
+2025-05-15 10:44:02 INFO  src/server_context.c:140: Vue N2 libérée
+2025-05-15 10:44:02 INFO  src/server_context.c:162: Client 6 déconnecté
+2025-05-15 10:44:05 INFO  src/server_context.c:171: Client déconnecté.
+2025-05-15 10:44:05 WARN  src/serveur.c:252: Erreur de réception pour le client 5, déconnexion
+2025-05-15 10:44:05 INFO  src/server_context.c:140: Vue N1 libérée
+2025-05-15 10:44:05 INFO  src/server_context.c:162: Client 5 déconnecté
