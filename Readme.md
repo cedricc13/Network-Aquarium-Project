@@ -172,10 +172,6 @@ fish-update-interval = 1
 - Multi-threading implemented using select() for optimal performance
 - Fish visual assets are PNG files matched by name (ignoring underscore suffixes)
 
-## Demo
-A complete demonstration of the project is available at:
-https://drive.google.com/file/d/1mFltOM9FLugce1VRzNLGor2_kT6WWNPD/view?usp=sharing
-
 ## Academic Context
 This project was developed as part of the RE203 Networks course (March 2025) focusing on:
 - Network programming in C and Java
